@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="/css/signin.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<div id="outer-container">
+      <h2>Sign In</h2>
+
+      <form action="/users/sign-in/createToken" method="post">
+        <p class="input-heading">Email Address</p>
+        <input type="email" name="email" id="" placeholder="Enter email" required>
+        <p class="input-heading">Password</p>
+        <input type="password" name="password" id="" placeholder="Enter Password" required>
+        <br>
+
+        <button type="submit" >Submit</button>
+    </form>
+    
+    <p style="text-align: center;"> <a href="/users/forgot"> Forgot password </a></p>    
+
+    <p class="googlesignin">
+        <a href="/users/auth/google"> <i class="fab fa-google"></i> Sign In with Google</a>
+    </p>
+
+    <p style="width: 80%; text-align: center; margin-left: 10%;"> Not Registered
+        <a href="/users/sign-up">Sign   Up</a>
+    </p>
+
+
+</div>
+
+   
+    
+   

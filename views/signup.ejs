@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="/css/signup.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<div id="outer-container">
+      <h2>Sign Up</h2>
+    <form action="/users/sign-up/create" method="post">
+        <p class="input-heading">Name</p>
+        <input type="text" name="name" id="" placeholder="Enter name" required>
+        <p class="input-heading">Email Address</p>
+        <input type="email" name="email" id="" placeholder="Enter email" required>
+        <p class="input-heading">Password</p>
+        <input type="password" name="password" id="" placeholder="Enter Password" required>
+        <p class="input-heading">Confirm password</p>
+        <input type="password" name="confirmpassword" id="" placeholder="Confirm Password" required>
+        <br>
+    
+        <button type="submit" id="signup">Sign Up</button>
+    
+    </form>    
+
+    <p class="googlesignup">
+        <a href="/users/auth/google"> <i class="fab fa-google"></i> Sign Up with Google</a>
+    </p>
+
+    <p style="width: 80%; text-align: center; margin-left: 10%;"> Already Registered
+        <a href="/users/sign-in">Sign In</a>
+    </p>
+
+    
+
+</div>
+

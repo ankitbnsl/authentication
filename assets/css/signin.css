@@ -1,0 +1,63 @@
+body{
+    background-image: url('https://images.squarespace-cdn.com/content/v1/57229aa27da24fd5709d7a9b/1554131165698-K3MSEHAD0TTACWR1CLRJ/niko-creatives-background-waves-blue.jpg?format=2500w');
+    background-size: cover;
+}
+#outer-container{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 50px;
+    border-radius: 15px;
+    background-color: white;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+.input-heading{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10%;
+}
+input{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 20px;
+    border-radius: 5px;
+}
+button{
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 80%;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: #3939c4;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.googlesignin{
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 80%;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(230, 136, 13);
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 900px) {
+    #outer-container{
+        width: 80%;
+        /* padding: 50px; */
+        margin-left: 15%;
+        margin-top: 50px;
+        border-radius: 15px;
+        
+    }
+    
+}
