@@ -26,4 +26,4 @@ npm install
 
 nodemon index.js
 
-Now project is up and running successfully
+Now project is up and running successfully , use http://localhost:3000 on your browser to see the results
